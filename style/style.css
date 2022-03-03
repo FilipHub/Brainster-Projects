@@ -1,0 +1,137 @@
+body{
+    background-color: #fcd232 !important;
+}
+.logo{
+    height: 50px;
+}
+.textShadow{
+    text-shadow: 2px 2px 5px #000000ea;
+}
+.darkGrey{
+    background-color: #302f38;
+}
+.darkGreyTxt{
+    color: #302f38;
+}
+#filter-coding input[type=checkbox]{
+    visibility: hidden;
+}
+#filter-design input[type=checkbox]{
+    visibility: hidden;
+}
+#filter-marketing input[type=checkbox]{
+    visibility: hidden;
+}
+label{
+    margin: 0;
+}
+.backgroundColor{
+    background-color: #fcd232;
+}
+.redbg{
+    background-color: rgb(255, 19, 0);
+}
+.selector-hover:hover {
+    background-color: #eb3b3b;
+    cursor: pointer;
+}
+.fsize-12 { font-size: 12px !important; }
+.fsize-14 { font-size: 14px !important; }
+.fsize-10 { font-size: 10px !important; }
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}  
+.text-decoration{
+    color: rgb(29, 9, 9) !important;
+}
+.BackgroundForJumbotron{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5) ), url("images/jumbotron-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.icon-position{
+    padding: 0;
+    margin-top: -17px;
+}
+.a_navbar{
+    color: black;
+    transform: translate(0%);
+  }
+
+  .a_navbar::after{
+    content: "";
+    /* background: rgba(99, 102, 255, 0.164); */
+    background: rgba(255, 147, 147, 0.274);
+    border-radius: 10px;
+    mix-blend-mode: exclusion;
+    width: calc(100% + 20px);
+    height: 0;
+    position: absolute;
+    bottom: -4px;
+    left: -10px;
+    transition: all .3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  }
+
+.a_navbar:hover::after{
+    height: calc(100% + 8px)
+  }
+.card{
+    transition: all 0.3s ease-in-out;  
+    border-radius: 15px !important;
+}
+.card::after {   
+    z-index: -1;
+    opacity: 0;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+  }
+.card:hover {
+    transform: scale(1.1, 1.1);
+    z-index: 1  ;
+}
+@media (max-width: 991.98px)  {
+    .img-responsive{
+        height: 180px;
+    }
+    .text-decoration{
+        color: white !important;
+    }
+    .show-navbar {
+        align-items: flex-start;
+        align-content: flex-start;
+        background-color: rgba(48,47,56,255);
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        top: 0;
+        padding-left: 25px;
+        padding-top: 55px;
+        right: 0;
+        z-index: 1;
+       
+    }
+    .bi{
+        color: white;
+    }
+    .navbarheight{
+        height: 100vh;
+        transition: max-height 0.25s ease-in;
+        transition: max-height 0.15s ease-out;
+    }
+    .nav-link{
+        font-size: 24px;
+        padding-top: 50px !important;
+    }
+    .button-responsive{
+        margin-top: 100px !important;
+        font-size: 18px !important;
+        margin-right: auto !important;
+    }
+    .responsive-max-height{
+        max-height: 150px;
+    }
+}
