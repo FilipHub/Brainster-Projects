@@ -1,4 +1,1 @@
-# project01
-
-This is the first project done using HTML5, CSS3, Bootstrap and Javascript.
-https://brainsterprojects-filippetrusevski.netlify.app/
+Covid Tracker project is done using an API for the data on the Coronavirus, sorting and storing it all in MySQL database. PHP and cron job for the logic and updating the database and finally JavaScript, Bootstrap and CSS for displaying the data on the website.
