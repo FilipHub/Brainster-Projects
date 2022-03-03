@@ -1,0 +1,670 @@
+.first-step {
+    background-image: url("../css/Images/2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.second-step {
+    background-color: #f6f6f6;
+}
+.third-step {
+    background-color: #f6f6f6;
+}
+.fourth-step {
+    background-color: #f6f6f6;
+}
+.register-profile-picture {
+    /* width: 300px !important; */
+    border-radius: 50% !important;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.dashboard-background {
+    background-image: url("../css/Images/3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.orange-span {
+    background-color: #dd7f1e;
+    color: #dd7f1e;
+    vertical-align: middle;
+    margin-left: 20px;
+    height: 3px;
+    width: 80%;
+}
+.orange-span-full {
+    background-color: #dd7f1e;
+    color: #dd7f1e;
+    height: 3px;
+    width: 100%;
+}
+.marigin-right {
+    margin-right: 70px;
+}
+.orange-span-style {
+    display: flex;
+    align-items: center;
+}
+.orange-span-skills {
+    background-color: #dd7f1e;
+    color: #dd7f1e;
+    vertical-align: middle;
+    margin-left: 20px;
+    height: 3px;
+    width: 85%;
+}
+.orange {
+    color: #dd7f1e;
+    font-size: 12px !important;
+}
+
+.green {
+    background-color: #48695c;
+    color: white;
+    width: 350px;
+}
+
+/* =========================================== LOGIN */
+.text-black {
+    color: black;
+}
+.form-border {
+    border-bottom: #000;
+    border-bottom-width: thick;
+}
+.login-background {
+    background-image: url("../css/Images/1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.login-btn {
+    display: block;
+    color: white;
+    background-color: #dd7f1e !important;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-right: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 105px;
+    border-radius: 5px;
+    border: none;
+}
+.fontSize {
+    font-size: smaller;
+}
+/* =============================================== */
+.step-2-sizing {
+    height: 150px;
+    width: 100%;
+}
+.step-3-scroll {
+    height: 340px;
+    width: 84%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-left: 100px;
+}
+.my-profile-skills {
+    height: 260px;
+    /* width: 84%; */
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.input-border-style {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom-width: 6px;
+    border-radius: 3px;
+    border-color: black;
+    /* width: 250px; */
+}
+.input-border-style:focus {
+    border-color: #48695c;
+}
+.width-input {
+    width: 70%;
+}
+.width-textarea {
+    width: 80%;
+    background-color: transparent;
+    border: 0;
+    resize: none;
+    height: 220px;
+}
+.button-style {
+    border-radius: 15px;
+    font-size: 25px;
+    height: 60px;
+    width: 330px !important;
+    margin-top: 10px;
+}
+.width-textarea::placeholder {
+    color: rgb(178, 178, 178);
+    opacity: 1;
+    line-height: 27px;
+    letter-spacing: 1px;
+}
+.biography-style {
+    color: rgb(156, 156, 156);
+    font-size: 20px;
+}
+
+.width-textarea:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: rgb(178, 178, 178);
+}
+
+.width-textarea::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: rgb(178, 178, 178);
+}
+.radio-button-style {
+    display: inline-block;
+}
+.radio-button-style input[type="checkbox"]:checked + label::after {
+    background-color: #48695c;
+}
+
+.text-align-middle {
+    height: 100%;
+    width: 100%;
+    padding-top: 15%;
+}
+
+/* ========================================== */
+.radio-button-style input[type="radio"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+.radioButton {
+    height: 150px !important;
+    width: 150px !important;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    /* padding-top: 30%; */
+}
+
+/* .radio-button input[type="radio"]:checked + label {
+    background-color: #48695c !important;
+}
+
+.radio-button input[type="radio"]:focus + label {
+    background-color: #48695c;
+    color: white;
+} */
+.radioButton:hover {
+    background-color: #48695c;
+    color: white;
+}
+.selected {
+    background-color: white;
+}
+.academy_btn {
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    padding: 0;
+}
+
+.skill_btn {
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    padding: 0;
+}
+/* ========================================== */
+
+/* ========================================== */
+
+.checkbox-button input[type="checkbox"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+.checkbox-button {
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+    /* display: flex; */
+    /* background-color: white; */
+    border-radius: 20px;
+}
+.checkbox-button:hover {
+    background-color: #48695c;
+    color: white;
+}
+
+/* ========================================== */
+
+.academies-button-style {
+    margin-top: 100px;
+}
+.skills-button-style {
+    margin-top: 20px;
+}
+
+/* scrollbar css============================ */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border: #dd7f1e;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #dd7f1e;
+}
+
+/* ======================================= */
+html {
+    scroll-behavior: auto;
+}
+
+/* ====================================== */
+.image-div {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    background-color: white;
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+}
+.label-style {
+    border-radius: none !important;
+    background-color: transparent !important;
+    padding: 0 !important;
+    height: auto !important;
+    width: auto !important;
+    margin-top: 40px !important;
+}
+.image-div input[type="file"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+.image-div label {
+    padding-top: 100px;
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+}
+.logo {
+    font-weight: 700;
+    align-items: center !important;
+}
+.dashboard-academies-style {
+    height: 60px !important;
+    width: 140px !important;
+    margin-top: 10px !important;
+    /* margin: 5px; */
+    background-color: white;
+    color: black;
+    padding-top: 10px;
+    /* margin: 5px; */
+    border-radius: 15px;
+}
+.dashboard-academies-style:hover {
+    background-color: #48695c;
+    color: white;
+}
+.radio-button-style input[type="radio"]:checked {
+    background-color: #48695c;
+    color: white;
+}
+.academies-wrapper {
+    display: flex;
+}
+/* input[type="radio"]:checked + label {
+    color: #0b4db7 !important;
+    background-color: #48695c;
+} */
+#fixed {
+    height: 100vh;
+    position: fixed;
+}
+.card-style {
+    border-radius: 20px;
+}
+.applicants-card {
+    background-color: white !important;
+    width: max-content;
+    border-radius: 20px;
+}
+.apply-button {
+    padding: 7px 60px;
+    border-radius: 10px;
+    background-color: #48695c;
+    color: white;
+    border: none;
+}
+.apply-button-selected {
+    padding: 7px 60px;
+    border-radius: 10px;
+    background-color: #949d99;
+    color: white;
+    border: none;
+}
+.apply-button-selected a {
+    pointer-events: none;
+}
+
+.half-circle {
+    width: 40px;
+    height: 40px;
+    font-size: 7px !important;
+    background-color: #48695c;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom: 0;
+    text-align: center;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 16px;
+    color: white;
+
+    /* position: fixed; */
+}
+.name-style {
+    font-weight: 900 !important;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.font-size-small {
+    font-size: 10px !important;
+}
+.label-text-size {
+    font-size: 13px;
+}
+#more {
+    display: none;
+}
+.show-more-button {
+    border: none;
+    color: orange;
+    background-color: transparent;
+}
+.dashboard-offset {
+    padding-left: 60px !important;
+}
+.bigger-text {
+    font-size: 25px;
+}
+.the-position {
+    margin: auto;
+    display: flex;
+    /* position: relative; */
+    align-items: flex-end;
+
+    /* flex-direction: row; */
+}
+.my_projects_background {
+    background-image: url("../css/Images/4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.icons {
+    width: 25px;
+    height: 25px;
+}
+.icons1 {
+    width: 30px;
+    height: 30px;
+}
+.icons2 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.icon_plus {
+    width: 20px;
+    height: 20px;
+}
+.message-font {
+    font-size: 12px;
+}
+.icon-wrapper {
+    display: none;
+}
+.my-projects-card:hover .icon-wrapper {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 100px;
+}
+.application-icon-wrapper {
+    display: none;
+}
+.my-applications-card:hover .application-icon-wrapper {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 100px;
+}
+.parent-div {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    height: 120px;
+    padding: 0;
+    margin: 0;
+}
+.child-div {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: auto;
+}
+.image-wrapper {
+    margin: auto;
+    display: flex;
+    position: relative;
+    /* margin-left: 50px; */
+    /* margin-top: 30px; */
+    flex-direction: column;
+}
+.image-style {
+    position: absolute;
+    /* padding-top: 5px !important; */
+    left: 0;
+    width: 100%;
+    margin: 0;
+    margin-top: -50px;
+    background-color: white;
+    /* padding: 10px; */
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.image-style-profile {
+    position: absolute;
+    margin-left: 100px;
+    width: 100%;
+    margin-top: -50px;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.image-div {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    background-color: white;
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+}
+.image-div input[type="file"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+.image-div label {
+    padding-top: 100px;
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+}
+
+.profile-image-style {
+    /* position: absolute; */
+    margin-left: 50px !important;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.profile-upload input[type="file"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+.profile-upload label {
+    /* padding-top: 100px; */
+    /* height: 300px; */
+    /* width: 300px; */
+    cursor: pointer;
+}
+
+.img-rounded {
+    border-radius: 50%;
+}
+.counter-wrapper {
+    margin: auto;
+    display: flex;
+    position: relative;
+    align-items: end;
+    flex-direction: column;
+}
+.counter-style {
+    position: absolute;
+    padding-top: 5px !important;
+    right: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: -25px;
+    background-color: #48695c;
+    color: white;
+    width: 60px;
+    height: 60px;
+    font-size: 11px;
+    border-radius: 50%;
+    text-align: center;
+}
+.counter-number-font {
+    font-size: 15px;
+}
+.margin-create {
+    margin-left: 2.5rem !important;
+    margin-right: 2rem !important;
+    margin-top: 2.5rem !important;
+}
+/* a:active {
+    color: grey;
+} */
+.img-margin {
+    margin-right: 100px !important;
+}
+
+.update-image {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+
+/* ====================================================== */
+.profile-edit-button input[type="checkbox"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+.profile-edit-button input[type="checkbox"]:checked + label {
+    background-color: #48695c;
+}
+.profile-edit-button input[type="checkbox"]:focus + label {
+    background-color: #48695c;
+    color: white;
+}
+.profile-edit-button label {
+    height: 120px;
+    width: 120px;
+    cursor: pointer;
+    display: flex;
+    padding-top: 20%;
+    background-color: white;
+    border-radius: 20px;
+}
+.profile-edit-button label:hover {
+    background-color: #48695c;
+    color: white;
+}
+.display-inline {
+    display: inline-block;
+}
+
+.delete-button {
+    border: none;
+    background-color: transparent;
+    margin-top: 20px;
+}
+.image-shape {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.logout-button {
+    margin-left: 60px !important;
+    position: absolute;
+    margin-top: -5px;
+}
+.green-checked {
+    background-color: #48695c;
+    color: white;
+}
+.white-not-checked {
+    background-color: white;
+    color: black;
+}
